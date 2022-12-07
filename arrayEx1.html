@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Access the array values directly</h2>
+    <script>
+        var month= ["January","February","March","April","May","June","July",
+                     "August","September","October","November","December"];
+          document.write(`${month}`)
+    </script>
+ 
+    <h2>length of the Array</h2>
+     <script>
+        var month= ["January","February","March","April","May","June","July",
+                     "August","September","October","November","December"];
+           // document.write(month.length)    //12  
+           document.write(`Total values of Array is:${month.length}`)      
+     </script>
+
+     <h2>Total number of characters in given request/string</h2>
+     <script>
+        var username="ganapati ch"
+       // document.write(username.length)//11
+       document.write(`Total char's of string is:${username.length}`)      
+
+    </script>
+
+    <h2>Access array values using Index</h2>
+    <script>
+        var emp = [1,"ganapati","gana@gmail.com","Hyd"]
+        // document.write(`Emp id is:${emp[0]}<br/>`)
+        // document.write(`Emp name is:${emp[1]}<br/>`)
+        // document.write(`Emp Email is:${emp[2]}<br/>`)
+        // document.write(`Emp place is:${emp[3]}<br/>`)
+
+        document.write(`<h3>${emp[0]}</h3>`)
+        document.write(`<h3>${emp[1]}</h3>`)
+        document.write(`<h3>${emp[2]}</h3>`)
+        document.write(`<h3>${emp[3]}</h3>`)
+    </script>
+
+    <h2>Access all Array values using Loops</h2>
+    <script>
+        var month= ["January","February","March","April","May","June","July",
+                     "August","September","October","November","December"];
+             var index=0;        
+             while(index<=month.length)
+             {
+                document.write(`${month[index]}</br>`)
+                index++;
+             }        
+    </script>
+</body>
+</html>

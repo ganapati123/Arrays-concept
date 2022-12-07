@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var emp =[]
+        emp['id']=1
+        emp['name']='ganapati'
+        emp['email']='gana@gmail.com'
+        emp['phone']=7896543210
+        //total data access by for_in_loop concept
+        for(var key in emp)
+        {
+           document.write(`${key} -${emp[key]} <br/>`)
+        }
+        //individual data access
+        document.write(`<br/>`)
+        document.write(`Id:${emp['id']}<br/>`)
+        document.write(`Name:${emp.name} <br/>`)
+
+    </script>
+</body>
+</html>
